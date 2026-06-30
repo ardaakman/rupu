@@ -1,0 +1,31 @@
+# Planning (local only)
+PLAN.md
+
+# Binaries
+/rupu
+/bin/
+*.exe
+*.test
+*.out
+
+# Go
+/vendor/
+go.work
+go.work.sum
+
+# Databases / local data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Env / secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
